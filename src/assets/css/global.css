@@ -1,0 +1,17 @@
+:root {
+    --vd1:#72A684;
+    --vd2: #077336;
+    --vd3: #025920;
+    --vd4: #025920;
+    --br: #F0F2F2;
+    --pr: #000;
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--br);
+
+  }
