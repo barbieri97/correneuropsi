@@ -19,9 +19,9 @@ export default {
 };
   </script>
   
-  <style>
+  <style scoped>
 .container {
-  min-height: 100vh;
+  min-height: calc(100vh - 120px)h;
 }
 
 main {
@@ -31,9 +31,9 @@ main {
   justify-content: start;
 }
 
-/* .footer {
+.footer {
   position: absolute;
   bottom: 0;
-} */
+}
   </style>
   

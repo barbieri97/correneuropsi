@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Others
+/env
+.\src\tools\zscore-percentil.xlsx

@@ -3,11 +3,11 @@
     <MyHeader class="header" />
       <main>
         <h1>Correções de testes neuropsicológicos</h1>
-        <p>O que deseja?
-        </p>
-        <div id="service-links">
-          <router-link to="/correcao/" class="service">Lista de testes disponiveis</router-link>
-          <router-link to="/cadastro/" class="service">cadastrar paciente</router-link>
+        <p>lista de testes disponíveis</p>
+        <div id="tests-list">
+          <router-link to="/correcao/BDEFS" class="test">BDEFS - versão extensa</router-link>
+          <router-link to="/correcao/IHS" class="test">IHS</router-link>
+          <router-link to="/correcao/zscore" class="test">Z-Score</router-link>
 
         </div>
       </main>
@@ -34,12 +34,12 @@ main {
   justify-content: start;
   min-height: calc(100vh - 100px);
 }
-#service-links {
+#tests-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.service {
+.test {
   background-color: var(--vd2);
   margin: 10px;
   padding: 10px;
@@ -48,7 +48,7 @@ main {
   box-shadow: 5px 5px 15px var(--pr);
 }
 
-.service:hover {
+.test:hover {
   background-color: var(--vd1);
 }
 
