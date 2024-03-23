@@ -67,6 +67,7 @@ main {
     flex-flow: column wrap;
     align-items: center;
     justify-content: start;
+    min-height: calc(100vh - 100px);
 }
 input {
     margin-top: 10px;

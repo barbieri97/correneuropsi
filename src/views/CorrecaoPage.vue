@@ -25,15 +25,15 @@ export default {
 }
 
 main {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: start;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: start;
+    min-height: calc(100vh - 100px);
 }
-
-.footer {
+/* .footer {
   position: absolute;
   bottom: 0;
-}
+} */
   </style>
   

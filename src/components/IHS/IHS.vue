@@ -1,6 +1,6 @@
 <!-- TesteA.vue -->
 <template>
-    <div class="container">
+    <main class="container">
       <h2>Correção do IHS</h2>
       <div id="questions-ihs">
         <form>
@@ -30,7 +30,7 @@
       </div>
       
       <!-- Conteúdo específico do teste A -->
-    </div>
+    </main>
   </template>
   
   <script>
